@@ -35,8 +35,7 @@
         <label>Contraseña (demo)<input id="passwordInput" type="password" minlength="4" placeholder="Mínimo 4 caracteres" required></label>
         <button class="btn primary wide" id="authSubmit" type="submit">Crear mi cuenta →</button>
       </form>
-      <p class="fine-print">Esta versión es una demostración: no envía datos a un servidor ni crea cuentas reales.</p>
-      <button class="link-btn" id="demoBtn">Explorar sin registrarme →</button>
+      <p class="fine-print">Prototipo de demostración: el registro y el inicio de sesión todavía no verifican cuentas en un servidor.</p>
     </div>
   </section>
 
@@ -53,15 +52,19 @@
         <p class="nav-label secondary-label">MI ESPACIO</p>
         <button data-page="exchanges" class="nav-item">⇄ <span>Mis intercambios</span></button>
         <button data-page="profile" class="nav-item">◎ <span>Mi perfil</span></button>
+        <button data-page="premium" class="nav-item">✦ <span>Planes Premium</span></button>
+        <button data-page="inperson" class="nav-item premium-nav hidden">⌖ <span>Intercambio presencial</span><em>PRO</em></button>
+        <button data-page="groups" class="nav-item premium-nav hidden">▤ <span>Sesiones grupales</span><em>PRO</em></button>
+        <button data-page="advanced" class="nav-item premium-nav hidden">⚙ <span>Filtros avanzados</span><em>PRO</em></button>
       </nav>
       <div class="sidebar-promo"><span class="mint-text">✳</span><strong>Tu talento vale más cuando lo compartes.</strong><p>Encuentra a alguien con quien aprender algo nuevo.</p><button class="btn mint" data-page="explore">Descubrir personas ↗</button></div>
       <small class="copyright">TradeUp © 2026</small>
     </aside>
     <main class="main-area">
-      <header class="topbar"><div><small>Tu espacio / <span id="breadcrumb">Inicio</span></small><strong>Intercambia. Aprende. Crece.</strong></div><div class="top-actions"><button class="icon-button" aria-label="Notificaciones" data-page="notifications">♧</button><button class="avatar avatar-small" data-page="profile" id="headerAvatar">S</button></div></header>
+      <header class="topbar"><div><small>Tu espacio / <span id="breadcrumb">Inicio</span></small><strong>Intercambia. Aprende. Crece.</strong></div><div class="top-actions"><button class="avatar avatar-small" data-page="profile" id="headerAvatar">S</button></div></header>
       <div id="pageContent" class="page-content"></div>
       <nav class="mobile-nav">
-        <button data-page="home" class="active">⌂<small>Inicio</small></button><button data-page="explore">⌕<small>Explorar</small></button><button data-page="publish" class="mobile-plus">+</button><button data-page="notifications">♧<small>Avisos</small></button><button data-page="profile">◎<small>Perfil</small></button>
+        <button data-page="home" class="active">⌂<small>Inicio</small></button><button data-page="explore">⌕<small>Explorar</small></button><button data-page="publish" class="mobile-plus">+</button><button data-page="premium">✦<small>Planes</small></button><button data-page="notifications">♧<small>Avisos</small></button>
       </nav>
     </main>
   </section>

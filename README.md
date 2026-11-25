@@ -1,26 +1,24 @@
-# TradeUp — Intercambia. Aprende. Crece.
+# TradeUp — prototipo
 
-Prototipo web de TradeUp hecho con HTML, CSS y JavaScript sin frameworks. Incluye portada, panel, explorar habilidades, perfiles, publicaciones, mensajes, notificaciones e intercambios de demostración.
+TradeUp es un prototipo frontend para explorar habilidades, conectar personas e intercambiar conocimientos.
 
-## Cómo usarlo localmente
-1. Descarga o clona este repositorio.
-2. Abre `index.html` en tu navegador. Para una experiencia más consistente, usa la extensión **Live Server** de Visual Studio Code.
+## Archivos
+- `index.html`: estructura de la aplicación.
+- `styles.css`: diseño adaptable a computadora y celular.
+- `script.js`: navegación y funciones de demostración.
 
-## Cómo publicarlo gratis con GitHub Pages
-1. Crea un repositorio en GitHub llamado `tradeup`.
-2. Sube `index.html`, `styles.css`, `script.js` y `README.md` a la raíz del repositorio.
-3. Entra en **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Elige la rama `main` y la carpeta `/ (root)`, luego pulsa **Save**.
-6. Espera a que GitHub genere el enlace público en la misma sección.
+## Funciones incluidas
+- Registro e inicio de sesión de demostración.
+- Explorar habilidades y perfiles de distintos usuarios.
+- Perfil editable con foto, descripción, nivel, habilidades que ofrece y habilidades que busca.
+- Coincidencias simuladas según habilidades ofrecidas y buscadas.
+- Mensajes con respuestas automáticas de demostración para probar la conversación.
+- Solicitudes recibidas con opciones para aceptar o rechazar; solicitudes enviadas y seguimiento.
+- Calificaciones, reseñas e insignias de reputación de demostración.
+- Publicación de habilidades, notificaciones y planes Premium ilustrativos.
 
-## Paleta de colores
-- TradeUp Purple: `#B66FF0`
-- TradeUp Mint: `#4FE5A9`
-- Deep Navy: `#08051F`
-- Soft White: `#F8F7FC`
-- Lavender: `#E8D7FA`
-- Cool Gray: `#77758A`
+## Cómo probar
+Abre `index.html` en un navegador. Crea una cuenta de demostración, entra a Explorar, abre un perfil y prueba enviar mensajes o proponer un intercambio.
 
 ## Importante
-Esta versión es una demo frontend. Los formularios y mensajes funcionan localmente durante la sesión, pero no hay autenticación real, base de datos ni envío de mensajes entre usuarios. Para lanzar el producto real, conecta un backend y un proveedor de autenticación.
+Este proyecto es un prototipo frontend. Los usuarios, conversaciones, solicitudes, respuestas, reseñas, coincidencias, registro y compras son datos o simulaciones locales; no se conectan con personas reales ni se guardan en un servidor. Los cambios se reinician al recargar la página. Para convertirlo en una aplicación real se necesita backend, base de datos, autenticación y controles de seguridad. Las reuniones presenciales deben planearse únicamente en lugares públicos y con las medidas de seguridad adecuadas; los menores necesitan autorización y acompañamiento de un adulto de confianza.
